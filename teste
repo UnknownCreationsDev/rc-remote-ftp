@@ -1,0 +1,11 @@
+{
+"protocol": "sftp",
+"host": "18.134.106.197", //Dev
+"port": 22,
+"user": "bitnami",
+"promptForPass": false,
+"remote": "/opt/bitnami/projects",
+"privatekey": "C:/Users/Italo/keys/LightsailDefaultKey-eu-west-2.pem",
+"connTimeout": 10000,
+"keepalive": 10000
+}
