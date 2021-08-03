@@ -3,6 +3,7 @@
   'ctrl-alt-d': 'remote-ftp:disconnect'
   'ctrl-alt-c': 'remote-ftp:connect'
   'cmd-shift-u': 'remote-ftp:upload-selected'
+  'alt-r': 'rc-remote-ftp:restart-apache'
 
 '.remote-ftp-view':
   'a': 'remote-ftp:add-file'
@@ -10,3 +11,4 @@
   'd': 'remote-ftp:move-selected'
   'delete': 'remote-ftp:delete-selected'
   'backspace': 'remote-ftp:delete-selected'
+  'alt-r':'rc-remote-ftp:restart-apache'

@@ -24,7 +24,9 @@
       { label: 'Sync local <- remote', command: 'rc-remote-ftp:sync-with-remote' },
       { label: 'Delete', command: 'rc-remote-ftp:delete-selected' },
       { label: 'Toggle Tree', command: 'rc-remote-ftp:toggle' },
-      { label: 'Disconnect', command: 'rc-remote-ftp:disconnect' }
+      { label: 'Disconnect', command: 'rc-remote-ftp:disconnect' },
+      { type: 'separator' },
+      { label: 'Restart Apache', command: 'rc-remote-ftp:restart-apache' }
     ]
   '.remote-ftp-view .list-tree.multi-select, .remote-ftp-view .list-tree .multi-select': [
       { label: 'Download', command: 'rc-remote-ftp:download-selected' },
@@ -48,6 +50,7 @@
         { label: 'Create ignore file', command: 'rc-remote-ftp:create-ignore-file' },
         { label: 'Create FTP config file', command: 'rc-remote-ftp:create-ftp-config' },
         { label: 'Create SFTP config file', command: 'rc-remote-ftp:create-sftp-config' },
+        { label: 'Restart Apache', command: 'rc-remote-ftp:restart-apache' },
       ]
     ]
   }
